@@ -11,18 +11,18 @@ public class spiralMatrix {
                 System.out.print(matrix[startRow][j]+" ");
             }
             //right
-            for(int i = startRow ; i<endRow ; i++){
+            for(int i = startRow ; i<=endRow ; i++){
                 System.out.print(matrix[i][endcol]+" ");
             }
             //bottom
-            for(int j = endcol-1 ; j<startCol ; j--){
+            for(int j = endcol-1 ; j>=startCol ; j--){
                 if(startRow == endRow){
                     break;
                 }
                 System.out.print(matrix[endRow][j]+" ");
             }
             //left
-            for(int i = endRow-1 ; i<startRow+1 ; i--){
+            for(int i = endRow-1 ; i>=startRow+1 ; i--){
                 if(startCol == endcol){
                     break;
                 }
