@@ -7,5 +7,8 @@ public class inOroutSring {
         name = sc.nextLine();
         System.out.println(name);
 
+        String fullname = "Hello Guys";
+        System.out.println(fullname.length());
+
     }
 }
