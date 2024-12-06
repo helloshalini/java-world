@@ -1,6 +1,6 @@
-import java.util.*;
+// import java.util.*;
 
-public class _2dArray {
+public class Array2D {
     public static boolean search(int matrix[][] , int item){
         for(int i = 0 ; i<matrix.length ; i++){
             for(int j = 0 ; j<matrix.length ; j++){
@@ -14,13 +14,14 @@ public class _2dArray {
         return false;
     }
     public static void main(String[] args) {
-        Scanner sc  = new Scanner(System.in);
         int matrix[][] = new int[3][3];
-        int n = matrix.length , m = matrix[0].length;
+        // int n = matrix.length , m = matrix[0].length;
 
         for(int i = 0 ; i<matrix.length ; i++){
-            for(int j = 0 ; j<matrix.length ; j++){
-                matrix[i][j] = sc.nextInt();
+            for(int j = 0 ; j<matrix.length ; j++)
+            {
+                // Scanner sc  = new Scanner(System.in);
+                // matrix[i][j] = sc.nextInt();
             }
         }
         for(int i = 0 ; i<matrix.length ; i++){
