@@ -1,10 +1,10 @@
-import java.util.*;
+// import java.util.*;
 public class inOroutSring {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String name;
+
+        String name ="rohan";
         // name = sc.next();
-        name = sc.nextLine();
+        // name = sc.nextLine();
         System.out.println(name);
 
         String fullname = "Hello Guys";
