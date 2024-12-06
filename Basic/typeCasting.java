@@ -1,8 +1,8 @@
-import java.util.*;
+// import java.util.*;
 
 public class typeCasting {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         float a = 23.89f;
         int b = (int)a;
         char ch = 'a';
