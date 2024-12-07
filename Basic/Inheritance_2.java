@@ -1,6 +1,6 @@
 // Multi - Level Inheritance
 
-public class Inhetitance_2 {
+public class Inheritance_2 {
     public static void main(String[] args) {
         Dog bob = new Dog();
         bob.eat();
