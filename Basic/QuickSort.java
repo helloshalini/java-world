@@ -19,7 +19,7 @@ public class QuickSort {
         int pivot = arr[ei];
         int i = si-1;
 
-        for(int j = 0 ; j<ei ; j++){
+        for(int j = si ; j<ei ; j++){
             if(arr[j] <= pivot){
                 i++;
 
