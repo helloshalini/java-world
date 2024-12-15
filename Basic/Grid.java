@@ -1,7 +1,7 @@
 public class Grid {
     public static int grid_ways(int i , int j , int m , int n ){
         //base case
-        if(i == n-1 && j == n-1){ //condn for last cell
+        if(i == n-1 && j == m-1){ //condn for last cell
             return 1;
         }else if(i == n || j == n){ //boundary cross condn
             return 0;
