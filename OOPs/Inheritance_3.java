@@ -1,3 +1,5 @@
+package OOPs;
+
 //Hierrarchial Inheritance
 
 public class Inheritance_3 {

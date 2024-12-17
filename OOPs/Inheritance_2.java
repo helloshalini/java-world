@@ -1,3 +1,5 @@
+package OOPs;
+
 // Multi - Level Inheritance
 
 public class Inheritance_2 {
