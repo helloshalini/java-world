@@ -1,6 +1,6 @@
-//Function Overlading
+//Function Overriding
 
-public class Polimorphism2 {
+public class Polymorphism_2 {
     public static void main(String[] args) {
         Deer d = new Deer();
         d.eat();
@@ -18,3 +18,4 @@ class Deer extends Animal{
         System.out.println("Eat grass only");
     }
 }
+
