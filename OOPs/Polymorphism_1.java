@@ -1,6 +1,6 @@
 //Method Overloading
 
-public class Polimorphism {
+public class Polymorphism_1 {
     public static void main(String[] args) {
         Calculator cal = new Calculator();
         System.out.println(cal.Sum(1,3));
