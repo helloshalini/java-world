@@ -1,3 +1,4 @@
+
 // Singled Level Inhetitance
 
 public class Inheritance_1 {
