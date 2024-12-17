@@ -1,4 +1,4 @@
-public class funOverloading {
+public class FunctionOverloading {
     public static int sum(int a , int b){
         return a+b;
     }
