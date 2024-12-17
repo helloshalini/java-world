@@ -1,3 +1,5 @@
+package OOPs;
+
 public class AbstractClass {
     public static void main(String[] args) {
         Horse h = new Horse();
