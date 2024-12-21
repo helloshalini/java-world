@@ -21,7 +21,7 @@ public class Ques2 {
     }
     public static void main(String[] args) {
         String str = "abc";
-        String result = reverseString(str);;
+        String result = reverseString(str);
         
         System.out.println(result);
     }
