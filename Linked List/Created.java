@@ -58,16 +58,16 @@ public class Created {
     }
 
     public static void main(String[] args) {
-        // LinkedList list = new LinkedList();
-        // l1.print();
-        // list.addFirst(1);
-        // l1.print();
-        // l1.addFirst(2);
-        // l1.print();
-        // l1.addLast(3);
-        // l1.print();
-        // l1.addLast(4);
-        // l1.print();
+        Created l1 = new Created();
+        l1.print();
+        l1.addFirst(1);
+        l1.print();
+        l1.addFirst(2);
+        l1.print();
+        l1.addLast(3);
+        l1.print();
+        l1.addLast(4);
+        l1.print();
 
     }
 
