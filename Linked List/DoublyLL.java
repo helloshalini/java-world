@@ -67,10 +67,10 @@ public class DoublyLL {
         dll.addFirst(1);
 
         dll.print();
-        System.out.println(dll.size);
+        // System.out.println(dll.size);
 
         dll.removeFirst();
         dll.print();
-        System.out.println(dll.size);
+        // System.out.println(dll.size);
     }
 }
