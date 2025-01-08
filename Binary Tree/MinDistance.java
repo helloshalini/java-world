@@ -11,24 +11,6 @@ public class MinDistance {
         }
     }
 
-    public static Node lca(Node root, int n1, int n2) {
-        if(root == null || root.data == n1 || root.data == n2) {
-            return root;
-        }
-
-        Node leftLca = lca(root.left, n1, n2);
-        Node rightLca = lca(root.right, n1, n2);
-
-        if(rightLca == null) {
-            return leftLca;
-        }
-        if(leftLca == null) {
-            return rightLca;
-        }
-
-        return root;
-    }
-
     public static int lcaDist(Node root, int n) {
         if(root == null) {
             return -1;
@@ -54,7 +36,6 @@ public class MinDistance {
 
 
     public static int minDist(Node root, int n1, int n2) {
-        // Node lca = lca(root, n1, n2);
         int dist1 = lcaDist(root, n1);
         int dist2 = lcaDist(root, n2);
 
