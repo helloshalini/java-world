@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class RmoveInHeap {
+public class RemoveInHeap {
     static class Heaps { 
         ArrayList <Integer> arr = new ArrayList<>();
 
@@ -35,7 +35,7 @@ public class RmoveInHeap {
                 minIdx = left;
             }
             
-            if(right < arr.size() && arr.get(minIdx) < arr.get(right)) {
+            if(right < arr.size() && arr.get(minIdx) > arr.get(right)) {
                 minIdx = right;
             }
 
