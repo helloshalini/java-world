@@ -5,11 +5,13 @@ public class NearbyCars {
         int x;
         int y;
         int distSq;
+        int idx;
 
-        public Point(int x, int y, int distSq) {
+        public Point(int x, int y, int distSq, int idx) {
             this.x = x;
             this.y = y;
             this.distSq = distSq;
+            this.idx = idx;
         }
         
 
@@ -27,12 +29,12 @@ public class NearbyCars {
 
         for(int i = 0 ; i<pts.length ; i++) {
             int distSq = pts[i][0]  * pts[i][0] + pts[i][1];
-            pq.add(new Point(pts[i][0], pts[i][1], distSq));
+            pq.add(new Point(pts[i][0], pts[i][1], distSq, i));
         }
 
         // nearest k cars
         for(int i = 0 ; i<k ;i++) {
-            System.out.print("C"+pq.remove());
+            System.out.print("C"+pq.remove().idx);
         }
     }
 }
