@@ -23,6 +23,13 @@ public class Hashmap {
         System.out.println(hm.remove("India"));
         System.out.println(hm);
 
+        // size
+        System.out.println(hm.size());
+
+        // is empty 
+        hm.clear();
+        System.out.println(hm.isEmpty());
+
 
     }
 }
