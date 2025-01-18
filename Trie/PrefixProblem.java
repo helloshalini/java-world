@@ -29,19 +29,6 @@ public class PrefixProblem {
         curr.eow = true;
     }
 
-    public static boolean search(String key) {
-        Node curr = root;
-        for(int level = 0; level < key.length() ; level++) {
-            int idx = key.charAt(level) - 'a';
-            if(curr.children[idx] == null) {
-                return false;
-            }
-            curr = curr.children[idx];
-        }
-
-        return curr.eow == true;
-    }
-
     public static void findPrefix(Node root, String ans) {
         if(root == null) {
             return;
