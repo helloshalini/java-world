@@ -66,11 +66,14 @@ public class HasPath {
 
 
     public static void main(String[] args) {
-        int v = 7;
-        ArrayList<Edge>[] graph = new ArrayList[v];
-        createGraph(graph);
-        System.out.println(hasPath(graph, 0, 5, new boolean[v]));
-        System.out.println(hasPath(graph, 0, 9, new boolean[v]));
+
+        // Below all the code is true 
+
+        // int v = 7;
+        // ArrayList<Edge>[] graph = new ArrayList[v];
+        // createGraph(graph);
+        // System.out.println(hasPath(graph, 0, 5, new boolean[v]));
+        // System.out.println(hasPath(graph, 0, 9, new boolean[v]));
 
     }
 
