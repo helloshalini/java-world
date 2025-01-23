@@ -64,10 +64,14 @@ public class Depth1stSearch {
 
 
     public static void main(String[] args) {
-        int v = 7;
-        ArrayList<Edge>[] graph = new ArrayList[v];
-        createGraph(graph);
-        dfs(graph, 0, new boolean[v]);
+
+        // Below all the code is true 
+
+        // int v = 7;
+        // ArrayList<Edge>[] graph = new ArrayList[v];
+        // createGraph(graph);
+        // dfs(graph, 0, new boolean[v]);
+        
     }
 
 }
