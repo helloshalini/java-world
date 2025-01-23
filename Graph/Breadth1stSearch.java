@@ -69,9 +69,13 @@ public class Breadth1stSearch {
     }
 
     public static void main(String[] args) {
-        int v = 7;
-        ArrayList<Edge>[] graph = new ArrayList[v];
-        createGraph(graph);
-        bfs(graph);
+
+        // Below all the code is true 
+
+        // int v = 7;
+        // ArrayList<Edge>[] graph = new ArrayList[v];
+        // createGraph(graph);
+        // bfs(graph);
+        
     }
 }
